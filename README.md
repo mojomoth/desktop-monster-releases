@@ -19,6 +19,26 @@
 
 릴리스의 **Assets**에서 설치 파일을 선택하세요. GitHub가 제공하는 `Source code` 압축 파일은 설치 파일이 아닙니다.
 
+## 이전 버전 보관
+
+기존 설치 파일을 그대로 보관한 개발 빌드입니다. 각 릴리스에는 설치 파일, 부속 `.blockmap` 파일, `SHA256SUMS.txt`가 있습니다. 일반 설치에는 DMG 또는 EXE만 받으면 됩니다.
+
+| 버전 | macOS · Apple Silicon | Windows · x64 |
+| --- | --- | --- |
+| [v0.11.0](https://github.com/mojomoth/desktop-monster-releases/releases/tag/v0.11.0) | [DMG](https://github.com/mojomoth/desktop-monster-releases/releases/download/v0.11.0/DesMon-0.11.0-arm64.dmg) | [EXE](https://github.com/mojomoth/desktop-monster-releases/releases/download/v0.11.0/DesMon-Setup-0.11.0.exe) |
+| [v0.10.0](https://github.com/mojomoth/desktop-monster-releases/releases/tag/v0.10.0) | [DMG](https://github.com/mojomoth/desktop-monster-releases/releases/download/v0.10.0/DesMon-0.10.0-arm64.dmg) | [EXE](https://github.com/mojomoth/desktop-monster-releases/releases/download/v0.10.0/DesMon-Setup-0.10.0.exe) |
+| [v0.9.1](https://github.com/mojomoth/desktop-monster-releases/releases/tag/v0.9.1) | [DMG](https://github.com/mojomoth/desktop-monster-releases/releases/download/v0.9.1/DesMon-0.9.1-arm64.dmg) | [EXE](https://github.com/mojomoth/desktop-monster-releases/releases/download/v0.9.1/DesMon-Setup-0.9.1.exe) |
+| [v0.9.0](https://github.com/mojomoth/desktop-monster-releases/releases/tag/v0.9.0) | [DMG](https://github.com/mojomoth/desktop-monster-releases/releases/download/v0.9.0/DesMon-0.9.0-arm64.dmg) | [EXE](https://github.com/mojomoth/desktop-monster-releases/releases/download/v0.9.0/DesMon-Setup-0.9.0.exe) |
+| [v0.8.0](https://github.com/mojomoth/desktop-monster-releases/releases/tag/v0.8.0) | [DMG](https://github.com/mojomoth/desktop-monster-releases/releases/download/v0.8.0/DesMon-0.8.0-arm64.dmg) | — |
+| [v0.7.0](https://github.com/mojomoth/desktop-monster-releases/releases/tag/v0.7.0) | [DMG](https://github.com/mojomoth/desktop-monster-releases/releases/download/v0.7.0/DesMon-0.7.0-arm64.dmg) | — |
+| [v0.6.0](https://github.com/mojomoth/desktop-monster-releases/releases/tag/v0.6.0) | [DMG](https://github.com/mojomoth/desktop-monster-releases/releases/download/v0.6.0/DesMon-0.6.0-arm64.dmg) | — |
+| [v0.4.0](https://github.com/mojomoth/desktop-monster-releases/releases/tag/v0.4.0) | [DMG](https://github.com/mojomoth/desktop-monster-releases/releases/download/v0.4.0/DesMon-0.4.0-arm64.dmg) | — |
+| [v0.3.0](https://github.com/mojomoth/desktop-monster-releases/releases/tag/v0.3.0) | [DMG](https://github.com/mojomoth/desktop-monster-releases/releases/download/v0.3.0/DesMon-0.3.0-arm64.dmg) | — |
+| [v0.2.0](https://github.com/mojomoth/desktop-monster-releases/releases/tag/v0.2.0) | [DMG](https://github.com/mojomoth/desktop-monster-releases/releases/download/v0.2.0/DesMon-0.2.0-arm64.dmg) | — |
+| [v0.1.0](https://github.com/mojomoth/desktop-monster-releases/releases/tag/v0.1.0) | [DMG](https://github.com/mojomoth/desktop-monster-releases/releases/download/v0.1.0/DesMon-0.1.0-arm64.dmg) | — |
+
+v0.5.0과 v0.12.0은 보관된 설치 파일이 없어 목록에서 제외했습니다. 이전 빌드를 현재 환경에서 새로 실행 검증한 것은 아니며, 기능과 온라인 서버 호환성은 최신 버전과 다를 수 있습니다. 구버전으로 돌아갈 때는 해당 버전에서 만든 저장 데이터 백업을 사용하세요.
+
 ## 설치와 첫 실행
 
 ### macOS
